@@ -13,7 +13,7 @@ public class Gen_script_ss {
 
 	public static void photo(WebDriver driver) throws IOException
 	{
-		
+		//used to take screen shot
 		String photo="./photo";//folder location
 		Date todaydate=new Date();//to fetch system date
 		String s = todaydate.toString();//convert to string and store in s 
