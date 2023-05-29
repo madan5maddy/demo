@@ -21,10 +21,14 @@ public class yt_search extends Base_page {
 	{
 		search_tb.sendKeys(text);
 	}
+//	public void s_tb(String text)
+//	{
+//		search_tb.sendKeys(text);
+//	}
 	public void s_bt() {
 		search_syb.click();
 	}
-	public void s_bt1() {
-		search_syb.click();
-	}
+//	public void s_bt1() {
+//		search_syb.click();
+//	}
 }
