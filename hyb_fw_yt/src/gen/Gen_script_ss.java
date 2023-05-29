@@ -17,7 +17,7 @@ public class Gen_script_ss {
 		String photo="./photo";//folder location
 		Date todaydate=new Date();//to fetch system date
 		String s = todaydate.toString();//convert to string and store in s 
-		TakesScreenshot ts=(TakesScreenshot)driver;
+		TakesScreenshot ts=(TakesScreenshot)driver;//typecasting
 		File img = ts.getScreenshotAs(OutputType.FILE);
 		File s1=new File(photo+s+".jpeg");
 		FileHandler.copy(img, s1);
