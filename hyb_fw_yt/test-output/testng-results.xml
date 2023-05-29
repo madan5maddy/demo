@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-26T22:49:48 IST" name="Default suite" finished-at="2023-05-26T22:50:04 IST" duration-ms="15811">
+    <groups>
+    </groups>
+    <test started-at="2023-05-26T22:49:48 IST" name="Default test" finished-at="2023-05-26T22:50:04 IST" duration-ms="15811">
+      <class name="testcase.yt_runner">
+        <test-method is-config="true" signature="openb()[pri:0, instance:testcase.yt_runner@550ee7e5]" started-at="2023-05-26T22:49:48 IST" name="openb" finished-at="2023-05-26T22:49:58 IST" duration-ms="10355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openb -->
+        <test-method signature="runner()[pri:0, instance:testcase.yt_runner@550ee7e5]" started-at="2023-05-26T22:49:58 IST" name="runner" finished-at="2023-05-26T22:50:02 IST" duration-ms="3944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runner -->
+        <test-method is-config="true" signature="closeb()[pri:0, instance:testcase.yt_runner@550ee7e5]" started-at="2023-05-26T22:50:02 IST" name="closeb" finished-at="2023-05-26T22:50:04 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeb -->
+      </class> <!-- testcase.yt_runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
