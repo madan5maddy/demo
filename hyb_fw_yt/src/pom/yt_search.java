@@ -24,4 +24,7 @@ public class yt_search extends Base_page {
 	public void s_bt() {
 		search_syb.click();
 	}
+	public void s_bt1() {
+		search_syb.click();
+	}
 }
